@@ -1,3 +1,14 @@
+"""
+Author: Anonymity
+Github: https://github.com/Anonymity
+Email: Anonymity@Anonymity
+Tensorflow implementation for Hierarchical CNN with "gated linear units (GLU)"[1] and residual connection[2]
+[1] Dauphin, Yann N., et al. "Language modeling with gated convolutional networks." arXiv preprint arXiv:1612.08083 (2016).
+[2] He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
+"""
+
+
+
 import tensorflow as tf
 from context_fusion.nn import dropout, add_reg_without_bias
 from context_fusion.general import mask_for_high_rank
